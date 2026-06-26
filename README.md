@@ -29,7 +29,7 @@ Transforming raw marketplace data into actionable business insights through **Py
 
 A complete **Data Analytics portfolio project** that simulates how a Business Intelligence team analyzes an e-commerce marketplace.
 
-Instead of focusing only on dashboards, the project follows a complete analytics lifecycle—from raw transactional data to executive-level business recommendations.
+Instead of focusing only on dashboards, the project follows a complete analytics lifecycle from raw transactional data to executive-level business recommendations.
 
 ---
 
