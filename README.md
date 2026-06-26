@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛍️ Retail Consumer Intelligence Platform
+# 🛍️ Retail Consumer Intelligence & Business Analytics Platform
 
 ### End-to-End Retail Analytics using Python • SQL • Power BI
 
@@ -10,14 +10,29 @@
 ![SQL](https://img.shields.io/badge/SQL-Advanced-orange?style=for-the-badge&logo=mysql)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikitlearn)
-![GitHub](https://img.shields.io/badge/Open%20Source-Portfolio-success?style=for-the-badge&logo=github)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-success?style=for-the-badge&logo=github)
 
 </p>
 
-An end-to-end Retail Analytics platform built on the **Olist Brazilian E-Commerce Dataset** that transforms raw transactional data into actionable business intelligence through **Python, SQL, Machine Learning, and Power BI**.
+An end-to-end **Retail Business Intelligence** project built using the **Olist Brazilian E-Commerce Dataset**. The project transforms raw transactional data into business-ready insights through **Python, SQL, Customer Intelligence, and Power BI**.
 
-The project follows a real-world analytics workflow used by Data Analysts—from data cleaning and feature engineering to SQL analytics, customer segmentation, and executive dashboards.
+It follows a production-style analytics workflow covering **data cleaning, feature engineering, SQL analysis, exploratory analysis, customer segmentation, and executive dashboard development**.
+
+---
+
+## 📊 Project Highlights
+
+| Metric | Value |
+|---------|------:|
+| 📦 Raw Datasets | 9 |
+| 👥 Customers Analyzed | 96K+ |
+| 🛍️ Orders Processed | 113K+ |
+| 🏪 Sellers | 3K+ |
+| 📈 Visualizations | 20+ |
+| 🗄️ SQL Modules | 8 |
+| 🧠 ML Model | RFM + K-Means |
+| 📊 Power BI Dashboards | 5 |
 
 </div>
 
@@ -27,127 +42,106 @@ The project follows a real-world analytics workflow used by Data Analysts—from
 
 - Project Overview
 - Business Problem
-- Business Objectives
-- Project Workflow
-- Dataset Overview
-- Project Structure
+- Project Architecture
 - Tech Stack
-- Feature Engineering
+- Dataset Overview
+- Project Workflow
+- Key Features
 - SQL Business Analysis
 - Exploratory Data Analysis
 - Customer Intelligence
 - Power BI Dashboard
 - Business Insights
-- Key Recommendations
 - Installation
-- How to Run
 - Author
 
 ---
 
 # 📌 Project Overview
 
-Retail marketplaces generate massive volumes of transactional data every day. However, raw data alone provides limited business value unless transformed into actionable insights.
+Modern e-commerce platforms generate massive volumes of transactional data every day. Turning this raw data into actionable business intelligence is essential for improving customer retention, operational efficiency, and strategic decision-making.
 
-This project simulates the responsibilities of a Data Analyst by developing a complete Retail Consumer Intelligence Platform capable of supporting strategic decision-making across multiple business functions.
+This project demonstrates an end-to-end analytics pipeline that integrates Python, SQL, and Power BI to analyze customer behavior, sales performance, logistics, and seller operations.
 
-The platform integrates:
-
-- Data Cleaning
-- Feature Engineering
-- SQL Analytics
-- Exploratory Data Analysis
-- Customer Segmentation
-- Executive Reporting
-- Interactive Power BI Dashboards
-
-Rather than focusing only on visualization, the project emphasizes business understanding, analytical thinking, and end-to-end data workflows.
+Instead of focusing solely on dashboard creation, the project emphasizes data engineering, analytical thinking, customer intelligence, and business storytelling.
 
 ---
 
 # 💼 Business Problem
 
-The executive leadership team lacks a centralized analytics solution capable of monitoring:
+Business stakeholders require a centralized analytics solution capable of answering questions such as:
 
-- Sales performance
-- Customer behavior
-- Product performance
-- Seller efficiency
-- Operational performance
-- Customer satisfaction
+- Which products generate the highest revenue?
+- Which customers contribute the most value?
+- How effective is the delivery process?
+- Which sellers drive marketplace growth?
+- Where are operational bottlenecks?
+- How can customer retention be improved?
 
-Without a unified reporting system, identifying business opportunities, customer trends, and operational inefficiencies becomes difficult.
-
-The objective of this project is to design a Retail Consumer Intelligence Platform that enables stakeholders to make informed, data-driven decisions using historical marketplace data.
-
----
-
-# 🎯 Business Objectives
-
-The platform aims to answer key business questions such as:
-
-- How is revenue changing over time?
-- Which product categories generate the highest revenue?
-- Who are the most valuable customers?
-- Which sellers contribute most to marketplace performance?
-- How efficient is the delivery process?
-- Which payment methods are most commonly used?
-- Which customers should be targeted for retention campaigns?
-- How can business performance be monitored through interactive dashboards?
+This project addresses these challenges by building an integrated Business Intelligence platform that converts raw marketplace data into interactive dashboards and strategic recommendations.
 
 ---
 
 # 🏗️ Project Architecture
 
+```text
+                 Raw CSV Files
+                       │
+                       ▼
+          Data Cleaning & Validation
+                       │
+                       ▼
+            Feature Engineering
+                       │
+                       ▼
+            Analytical Datasets
+                       │
+      ┌────────────────┼────────────────┐
+      ▼                ▼                ▼
+ SQL Analytics   Python Analytics   Customer Intelligence
+      └────────────────┼────────────────┘
+                       ▼
+             Power BI Dashboard
+                       │
+                       ▼
+          Business Insights & Recommendations
 ```
 
-                    Raw CSV Files
-                           │
-                           ▼
-                Data Cleaning & Validation
-                           │
-                           ▼
-                  Feature Engineering
-                           │
-                           ▼
-                 Analytical Datasets
-                           │
-          ┌────────────────┼────────────────┐
-          ▼                ▼                ▼
-      SQL Analytics      Python EDA     Customer Segmentation
-          │                │                │
-          └────────────────┼────────────────┘
-                           ▼
-                   Power BI Dashboard
-                           │
-                           ▼
-                  Business Recommendations
+---
 
-```
+# 🛠️ Tech Stack
+
+| Category | Tools |
+|-----------|-------|
+| Programming | Python, SQL |
+| Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, Power BI |
+| Machine Learning | Scikit-learn |
+| Database | MySQL |
+| IDE | VS Code, Jupyter Notebook |
+| Version Control | Git & GitHub |
 
 ---
 
 # 🗂️ Dataset Overview
 
-The project uses the **Olist Brazilian E-Commerce Public Dataset**, containing complete transactional information from a Brazilian marketplace.
+The project uses the **Olist Brazilian E-Commerce Public Dataset**, containing transactional data from a Brazilian online marketplace.
 
-The dataset contains nine relational tables covering the complete customer purchasing journey.
-
-| Dataset | Description |
-|----------|------------|
-| Customers | Customer information |
-| Orders | Order lifecycle |
-| Order Items | Products purchased |
-| Products | Product catalog |
-| Payments | Payment details |
-| Reviews | Customer ratings |
-| Sellers | Seller information |
-| Geolocation | Customer & Seller locations |
-| Category Translation | Portuguese to English category mapping |
+| Dataset | Rows | Description |
+|----------|-----:|------------|
+| Customers | 99,441 | Customer information |
+| Orders | 99,441 | Order lifecycle |
+| Order Items | 112,650 | Purchased products |
+| Payments | 103,886 | Payment transactions |
+| Reviews | 99,224 | Customer reviews |
+| Products | 32,951 | Product catalog |
+| Sellers | 3,095 | Seller information |
+| Geolocation | 1,000,163 | Geographic coordinates |
+| Category Translation | 71 | Category mapping |
 
 ---
 
-## Database Schema
+## 🗃️ Database Schema
 
 <p align="center">
 
@@ -157,55 +151,33 @@ The dataset contains nine relational tables covering the complete customer purch
 
 ---
 
-# 🛠 Tech Stack
-
-| Category | Technologies |
-|-----------|-------------|
-| Programming | Python, SQL |
-| Data Analysis | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Visualization | Matplotlib, Power BI |
-| Database | SQL |
-| Development | VS Code, Jupyter Notebook |
-| Version Control | Git, GitHub |
-
 # 📂 Project Structure
 
-```
+```text
 retail-consumer-intelligence-platform
 │
-├── config/
 ├── data/
 │   ├── raw/
 │   ├── cleaned/
-│   ├── processed/
-│   │   ├── customer/
-│   │   ├── product/
-│   │   ├── seller/
-│   │   ├── order/
-│   │   └── master/
-│
-├── docs/
-├── images/
-├── logs/
-├── models/
+│   └── processed/
 ├── notebooks/
-├── powerbi/
-├── reports/
-│   └── figures/
 ├── sql/
+├── reports/
+├── docs/
+├── models/
+├── powerbi/
+├── images/
 ├── project_log.md
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
-
 ---
 
 # 🔄 End-to-End Analytics Workflow
 
-This project follows a production-style analytics pipeline rather than isolated notebook analysis.
+The project follows a production-style analytics pipeline commonly used in retail and e-commerce organizations.
 
-```
+```text
 Business Understanding
         │
         ▼
@@ -224,107 +196,57 @@ SQL Business Analysis
 Exploratory Data Analysis
         │
         ▼
-Customer Segmentation
+Customer Intelligence
+(RFM + K-Means)
         │
         ▼
-Power BI Dashboard
+Interactive Power BI Dashboard
         │
         ▼
-Business Recommendations
+Business Insights & Recommendations
 ```
 
 ---
 
-# 🧹 Data Cleaning & Validation
+# ✨ Key Features
 
-Before analysis, every dataset was validated and cleaned to ensure analytical reliability.
+### 🧹 Data Cleaning & Validation
 
-### Cleaning Tasks Performed
-
-✔ Converted all date columns into datetime format
-
-✔ Validated missing values
-
-✔ Checked duplicate records
-
-✔ Verified referential integrity
-
-✔ Standardized column names
-
-✔ Corrected data types
-
-✔ Validated business rules
-
-✔ Preserved business-valid missing values
-
-✔ Exported cleaned datasets
+- Converted and standardized date & time columns
+- Handled missing values using business-driven strategies
+- Removed duplicate records
+- Verified referential integrity across datasets
+- Validated data types and business rules
+- Exported clean analytical datasets
 
 ---
 
-## Validation Summary
+### ⚙️ Feature Engineering
 
-| Validation | Status |
-|------------|--------|
-| Missing Values | ✅ |
-| Duplicate Records | ✅ |
-| Datetime Conversion | ✅ |
-| Referential Integrity | ✅ |
-| Business Rules | ✅ |
-| Dataset Export | ✅ |
+Created reusable analytical datasets to support SQL, Python analysis, Machine Learning, and Power BI.
 
----
-
-# ⚙️ Feature Engineering
-
-One of the strongest parts of this project is the creation of reusable analytical datasets.
-
-Instead of repeatedly calculating metrics during analysis, business-ready datasets were engineered once and reused throughout SQL analysis, EDA, customer intelligence, and Power BI.
-
----
-
-## 📦 Order Features
-
-Engineered logistics and calendar features include:
-
-### Calendar Features
+#### 📦 Sales Features
 
 - Purchase Year
 - Purchase Month
 - Purchase Quarter
-- Purchase Weekday
 - Purchase Hour
-- Weekend Indicator
-
-### Logistics Features
-
+- Purchase Weekday
 - Delivery Time
 - Shipping Time
-- Approval Time
-- Estimated Delivery
 - Delivery Delay
-- Delay Indicator
-
-These features support:
-
-- Delivery KPIs
-- Operational analytics
-- Forecasting
-- Sales trend analysis
+- Weekend Indicator
 
 ---
 
-## 👤 Customer 360
+#### 👤 Customer 360
 
-A comprehensive customer-level analytical dataset was created using **customer_unique_id** to accurately represent individual customers.
-
-### Customer Metrics
+Customer-level analytical dataset including:
 
 - Total Orders
 - Total Products Purchased
 - Total Spending
 - Average Order Value
-- First Purchase
-- Last Purchase
 - Customer Lifetime
 - Purchase Frequency
 - Preferred Payment Method
@@ -333,24 +255,9 @@ A comprehensive customer-level analytical dataset was created using **customer_u
 
 ---
 
-## 📊 Customer Intelligence Features
+#### 🛍️ Product Features
 
-Additional customer behavioral metrics include:
-
-- Recency
-- Frequency Segment
-- Customer Value Tier
-- Review Category
-- Loyalty Score
-- Loyalty Segment
-
----
-
-## 📦 Product Features
-
-Product-level analytical dataset containing:
-
-- Product Revenue
+- Total Revenue
 - Total Quantity Sold
 - Average Product Price
 - Average Freight Cost
@@ -359,13 +266,10 @@ Product-level analytical dataset containing:
 
 ---
 
-## 🏪 Seller Features
-
-Seller intelligence dataset containing:
+#### 🏪 Seller Features
 
 - Total Revenue
 - Total Orders
-- Products Sold
 - Average Review Score
 - Average Delivery Time
 - Seller Tier
@@ -373,743 +277,400 @@ Seller intelligence dataset containing:
 
 ---
 
-# 📁 Engineered Outputs
+# 📂 Processed Analytical Datasets
 
-```
-data/
-└── processed/
-    ├── customer/
-    │   ├── customer_360.csv
-    │   └── customer_features.csv
-    │
-    ├── product/
-    │   └── product_features.csv
-    │
-    ├── seller/
-    │   └── seller_features.csv
-    │
-    ├── order/
-    │   └── order_features.csv
-    │
-    └── master/
-        └── sales_master.csv
-```
+The following business-ready datasets were engineered during the project.
+
+| Dataset | Purpose |
+|----------|---------|
+| `sales_master.csv` | Master analytical dataset |
+| `customer_360.csv` | Customer-level analytics |
+| `customer_segments.csv` | Customer intelligence |
+| `product_features.csv` | Product performance |
+| `seller_features.csv` | Seller analytics |
 
 ---
 
 # 🗄️ SQL Business Analysis
 
-Business analysis was performed using eight production-style SQL modules.
-
-The SQL layer is built on engineered datasets instead of raw transactional tables, improving readability and performance.
-
----
+Business analysis was performed using modular SQL scripts covering different business domains.
 
 ## SQL Modules
 
 | File | Purpose |
-|------|----------|
-| 01_data_loading.sql | Import & verification |
-| 02_data_validation.sql | Data quality validation |
-| 03_sales_analysis.sql | Revenue analysis |
+|------|---------|
+| 01_data_loading.sql | Data import & setup |
+| 02_data_validation.sql | Quality checks |
+| 03_sales_analysis.sql | Revenue analytics |
 | 04_customer_analysis.sql | Customer KPIs |
-| 05_product_analysis.sql | Product performance |
-| 06_seller_operations_analysis.sql | Seller & logistics analysis |
+| 05_product_analysis.sql | Product insights |
+| 06_seller_operations_analysis.sql | Seller & logistics |
 | 07_advanced_sql.sql | Window functions & CTEs |
-| 08_dashboard_kpis.sql | Executive dashboard KPIs |
+| 08_dashboard_kpis.sql | Executive KPIs |
 
 ---
 
-## SQL Concepts Demonstrated
+### SQL Skills Demonstrated
 
-✔ Common Table Expressions (CTEs)
-
-✔ Window Functions
-
-✔ ROW_NUMBER()
-
-✔ RANK()
-
-✔ DENSE_RANK()
-
-✔ NTILE()
-
-✔ Running Totals
-
-✔ LAG()
-
-✔ LEAD()
-
-✔ Rolling Analysis
-
-✔ Cumulative Revenue
-
-✔ Business KPI Queries
+- Joins
+- Aggregate Functions
+- CASE Statements
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Running Totals
+- Rolling Calculations
+- Business KPI Queries
 
 ---
 
 # 📈 Exploratory Data Analysis
 
-More than **20 analytical visualizations** were created to understand customer behavior, sales performance, seller efficiency, and operational performance.
-
-The analysis focused on transforming data into business insights rather than producing charts alone.
+More than **20 visualizations** were created to analyze sales trends, customer behavior, product performance, seller operations, payment preferences, and logistics.
 
 ---
 
-## EDA Coverage
+## 📊 Sales Analytics
 
-### 📈 Sales Analytics
+✔ Monthly Revenue Trend
 
-- Monthly Revenue Trend
-- Revenue by Quarter
-- Revenue by State
-- Revenue by Weekday
-- Revenue by Purchase Hour
+✔ Revenue by Quarter
 
----
+✔ Revenue by Weekday
 
-### 👥 Customer Analytics
+✔ Revenue by Purchase Hour
 
-- Orders per Customer
-- Repeat Customer Distribution
-- Customer Spend by State
+✔ Revenue by State
 
----
+<p align="center">
 
-### 📦 Product Analytics
+<img src="reports/figures/01_monthly_revenue_trend.png" width="700">
 
-- Product Category Revenue
-- Top Products
-- Product Pricing
+</p>
 
 ---
 
-### 🏪 Seller Analytics
+## 👥 Customer Analytics
 
-- Top Sellers by Revenue
-- Top Sellers by Orders
+✔ Orders per Customer
 
----
+✔ Repeat Customer Distribution
 
-### 🚚 Operations Analytics
+✔ Customer Spending by State
 
-- Delivery Performance
-- Delivery Delay
-- Order Status
-- Freight Cost
+✔ Customer Value Distribution
 
----
+<p align="center">
 
-### 💳 Payment Analytics
+<img src="reports/figures/11_repeat_customer_distribution.png" width="700">
 
-- Payment Method Distribution
-- Review Score Distribution
+</p>
 
 ---
 
-### 📊 Statistical Analysis
+## 📦 Product Analytics
 
-- Correlation Heatmap
-- Histograms
-- Boxplots
-- Distribution Analysis
+✔ Revenue by Product Category
 
-# 👥 Customer Intelligence & Segmentation
+✔ Top Selling Products
 
-Understanding customer behavior is essential for improving retention, increasing customer lifetime value, and designing personalized marketing strategies.
+✔ Product Price Distribution
 
-This project combines **RFM Analysis** with **K-Means Clustering** to identify distinct customer segments based on purchasing behavior.
+<p align="center">
 
-The resulting segments can be directly used by marketing teams for targeted campaigns and customer lifecycle management.
+<img src="reports/figures/06_product_category_revenue.png" width="700">
+
+</p>
 
 ---
 
-# 🎯 Segmentation Workflow
+## 🏪 Seller Analytics
 
-```
+✔ Top Sellers by Revenue
+
+✔ Top Sellers by Orders
+
+<p align="center">
+
+<img src="reports/figures/07_top_sellers.png" width="700">
+
+</p>
+
+---
+
+## 🚚 Operations Analytics
+
+✔ Order Status Analysis
+
+✔ Delivery Time Analysis
+
+✔ Delivery Delay Analysis
+
+✔ Freight Cost Analysis
+
+---
+
+## 💳 Payment & Customer Satisfaction
+
+✔ Payment Method Distribution
+
+✔ Review Score Distribution
+
+✔ Review Score vs Delivery Delay
+
+<p align="center">
+
+<img src="reports/figures/08_payment_methods.png" width="700">
+
+</p>
+
+---
+
+## 📊 Statistical Analysis
+
+✔ Correlation Heatmap
+
+✔ Histograms
+
+✔ Distribution Analysis
+
+<p align="center">
+
+<img src="reports/figures/20_correlation_heatmap.png" width="750">
+
+</p>
+
+---
+
+# 👥 Customer Intelligence
+
+One of the core objectives of this project was to move beyond descriptive analytics and identify meaningful customer segments that can support retention strategies, personalized marketing, and customer lifetime value optimization.
+
+The Customer Intelligence module combines **RFM Analysis** with **K-Means Clustering** to transform transactional data into actionable customer profiles.
+
+---
+
+## 🎯 Customer Segmentation Workflow
+
+```text
 Customer 360 Dataset
-        │
-        ▼
-   Feature Selection
-        │
-        ▼
-    RFM Analysis
-        │
-        ▼
- StandardScaler
-        │
-        ▼
-   Elbow Method
-        │
-        ▼
- K-Means Clustering
-        │
-        ▼
- PCA Visualization
-        │
-        ▼
- Customer Segments
-        │
-        ▼
+          │
+          ▼
+Feature Engineering
+          │
+          ▼
+RFM Analysis
+          │
+          ▼
+Feature Scaling
+          │
+          ▼
+K-Means Clustering
+          │
+          ▼
+PCA Visualization
+          │
+          ▼
 Business Recommendations
 ```
 
 ---
 
-# 📊 RFM Analysis
+## 📊 RFM Analysis
 
-Customers were evaluated using three core behavioral metrics.
+Customers were evaluated using three key behavioural metrics.
 
 | Metric | Description |
 |---------|-------------|
-| **Recency** | Days since the last purchase |
-| **Frequency** | Total number of completed orders |
-| **Monetary** | Total amount spent |
+| 🕒 Recency | Days since the customer's most recent purchase |
+| 🛒 Frequency | Total number of completed orders |
+| 💰 Monetary | Total amount spent |
 
-Each customer received a score from **1 to 5** for every metric.
-
-These scores were combined into a three-digit RFM code.
-
-Example:
-
-| RFM Score | Interpretation |
-|-----------|---------------|
-| 555 | Best Customers |
-| 554 | Very Loyal Customers |
-| 451 | Frequent Buyers |
-| 321 | Average Customers |
-| 111 | At-Risk / Low Value |
+Each metric was scored from **1–5** to identify purchasing behaviour and customer value.
 
 ---
 
-# 🤖 K-Means Clustering
+## 🤖 K-Means Clustering
 
-Customer clusters were created using the following behavioral variables:
+Customer segmentation was performed using the following features:
 
 - Total Orders
 - Total Spending
 - Average Order Value
 - Purchase Frequency
 - Customer Lifetime
-- Average Review Score
 - Recency
+- Average Review Score
 
-Before clustering:
-
-- Missing values were handled.
-- Features were standardized using StandardScaler.
-- The Elbow Method was used to determine the optimal number of clusters.
-- PCA was applied for two-dimensional visualization.
-
-The Elbow Method indicated that **five clusters** provided the best balance between model simplicity and cluster separation.
+The Elbow Method identified **5 optimal customer clusters**, which were then visualized using Principal Component Analysis (PCA).
 
 ---
 
-# 📈 Elbow Method
+## 📈 Elbow Method
 
 <p align="center">
 
-<img src="reports/figures/04_elbow_method.png" width="700">
+<img src="reports/figures/04_elbow_method.png" width="650">
 
 </p>
 
 ---
 
-# 🌐 Customer Cluster Visualization
-
-Principal Component Analysis (PCA) was used to project customers into two dimensions while preserving the maximum variance.
-
-This visualization demonstrates that customer behavior naturally separates into multiple groups based on purchasing characteristics.
+## 🌐 Customer Clusters (PCA)
 
 <p align="center">
 
-<img src="reports/figures/06_pca_clusters.png" width="800">
+<img src="reports/figures/06_pca_clusters.png" width="750">
 
 </p>
 
 ---
 
-# 👥 Customer Cluster Distribution
-
-The clustering model identified five customer segments with significantly different purchasing behaviors.
+## 📊 Cluster Distribution
 
 <p align="center">
 
-<img src="reports/figures/05_cluster_distribution.png" width="700">
+<img src="reports/figures/05_cluster_distribution.png" width="650">
 
 </p>
 
 ---
 
-# 📋 Cluster Summary
+# 💼 Customer Segments
 
-## 🟦 Cluster 0 — Dormant One-Time Customers
-
-### Characteristics
-
-- Single purchase
-- Low total spending
-- Long time since last purchase
-- Short customer lifetime
-
-### Business Interpretation
-
-These customers purchased once but never returned.
-
-### Recommended Actions
-
-- Win-back campaigns
-- Discount coupons
-- Personalized email reminders
-- Product recommendation campaigns
+| Segment | Business Interpretation |
+|---------|-------------------------|
+| 🟦 Dormant Customers | One-time buyers with long inactivity periods. Ideal targets for win-back campaigns. |
+| 🟧 Loyal Customers | Repeat buyers with strong lifetime value. Suitable for loyalty programs and cross-selling. |
+| 🟩 Frequent Buyers | Active customers with regular purchases. High potential for upselling. |
+| 🟥 Premium Customers | Small but extremely valuable customer group generating the highest revenue. |
+| 🟪 New Customers | Recently acquired customers with strong potential for repeat purchases. |
 
 ---
 
-## 🟧 Cluster 1 — Loyal Repeat Customers
+# 📊 Power BI Dashboard
 
-### Characteristics
+The engineered datasets were integrated into **Microsoft Power BI** to create an interactive Business Intelligence solution for executive decision-making.
 
-- Multiple purchases
-- High purchase frequency
-- Longer customer lifetime
-- Positive review scores
-
-### Business Interpretation
-
-Consistent repeat customers with strong long-term value.
-
-### Recommended Actions
-
-- Loyalty programs
-- Membership rewards
-- Cross-selling
-- Exclusive promotions
-
----
-
-## 🟩 Cluster 2 — Active Recent Customers
-
-### Characteristics
-
-- Recently acquired
-- Moderate spending
-- Higher purchasing frequency
-- Good customer satisfaction
-
-### Business Interpretation
-
-Customers showing promising engagement who have strong potential to become loyal buyers.
-
-### Recommended Actions
-
-- Personalized onboarding
-- Follow-up marketing
-- Encourage second purchases
-- Targeted recommendations
-
----
-
-## 🟥 Cluster 3 — Premium High-Value Customers
-
-### Characteristics
-
-- Highest spending
-- Highest order value
-- Premium purchasing behavior
-- Small but valuable customer base
-
-### Business Interpretation
-
-VIP customers responsible for a disproportionately high share of revenue.
-
-### Recommended Actions
-
-- VIP membership
-- Premium customer support
-- Early product access
-- Exclusive offers
-- Dedicated retention strategies
-
----
-
-## 🟪 Cluster 4 — Recent One-Time Buyers
-
-### Characteristics
-
-- Recent purchase
-- Low spending
-- Large customer population
-- Limited purchase history
-
-### Business Interpretation
-
-Newly acquired customers who have not yet developed repeat purchasing behavior.
-
-### Recommended Actions
-
-- Welcome campaigns
-- Repeat purchase incentives
-- Product discovery emails
-- Personalized recommendations
-
----
-
-# 📊 Customer Segmentation Outputs
-
-The segmentation process generated reusable analytical datasets.
-
-```
-data/
-└── processed/
-    ├── customer_segments.csv
-
-models/
-├── customer_segmentation_scaler.pkl
-└── customer_segmentation_kmeans.pkl
-```
-
----
-
-# 📈 Business Impact
-
-The customer intelligence module enables the business to:
-
-- Identify high-value customers
-- Improve customer retention
-- Design personalized marketing campaigns
-- Optimize promotional spending
-- Increase customer lifetime value
-- Build loyalty programs
-- Prioritize premium customer support
-- Monitor customer behavior over time
-
----
-
-# 📊 Key Business Insights
-
-## 💰 Revenue
-
-- Marketplace revenue is highly concentrated among a relatively small percentage of customers.
-- Premium customers contribute disproportionately more revenue than the average customer.
-- Customer spending follows a long-tail distribution, indicating opportunities for customer value optimization.
-
----
-
-## 👥 Customer Behavior
-
-- Most customers make only a single purchase.
-- Repeat customers generate significantly higher lifetime value.
-- Recently active customers demonstrate the highest potential for future engagement.
-- Recency is a strong indicator of future purchasing behavior.
-
----
-
-## 📦 Products
-
-- A limited number of product categories account for most marketplace revenue.
-- Higher-rated products generally achieve stronger sales performance.
-- Revenue concentration highlights opportunities for targeted inventory planning.
-
----
-
-## 🏪 Sellers
-
-- Seller performance is highly uneven.
-- A small number of sellers generate a large share of total marketplace revenue.
-- Seller ratings and delivery performance are valuable operational KPIs.
-
----
-
-## 🚚 Operations
-
-- Most deliveries occur within the estimated delivery window.
-- Delivery delays are concentrated among a relatively small number of sellers.
-- Longer delivery times tend to correspond with lower customer review scores.
-
----
-
-## 💳 Payments
-
-- Credit cards are the dominant payment method.
-- Installment payments are common for higher-value purchases.
-- Payment behavior provides opportunities for promotional and financing strategies.
-
----# 📊 Interactive Power BI Dashboard
-
-The final stage of the project transforms analytical datasets into an interactive Business Intelligence solution designed for executive decision-making.
-
-The dashboard enables stakeholders to monitor business performance through dynamic KPIs, drill-down analysis, and cross-filtering across customers, products, sellers, and operations.
-
----
-
-# Dashboard Overview
-
-The Power BI report consists of **five interactive pages**.
+The report consists of **five interactive dashboards**.
 
 | Dashboard | Purpose |
 |-----------|---------|
-| Executive Overview | Business KPI Monitoring |
-| Customer Intelligence | Customer behavior & segmentation |
-| Product & Sales Analytics | Product performance and revenue |
-| Seller & Operations | Seller performance & logistics |
-| Executive Insights | Strategic recommendations |
+| 📈 Executive Overview | Business KPIs & revenue trends |
+| 👥 Customer Intelligence | Customer behaviour & segmentation |
+| 🛍️ Product Analytics | Product performance & sales |
+| 🏪 Seller & Operations | Seller performance & logistics |
+| 💡 Executive Insights | Strategic recommendations |
 
 ---
 
-# Executive Overview
+## 🖥️ Dashboard Preview
 
-Displays the most important KPIs for senior management.
+> Replace the placeholders below with your final dashboard screenshots.
 
-### KPIs
-
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Order Value
-- Average Review Score
-- Delivery Delay Rate
-
-### Visualizations
-
-- Monthly Revenue Trend
-- Revenue by State
-- Revenue by Product Category
-- Payment Method Distribution
-- Monthly Orders
-
----
-
-## Dashboard Preview
-
-> Replace with your Power BI screenshot after completion.
+### Executive Overview
 
 <p align="center">
-
-<img src="images/dashboard/executive_dashboard.png" width="950">
-
+<img src="images/dashboard/executive_dashboard.png" width="900">
 </p>
 
 ---
 
-# Customer Intelligence Dashboard
-
-Focuses on customer behavior and purchasing patterns.
-
-### KPIs
-
-- Total Customers
-- Repeat Customers
-- Repeat Customer Rate
-- Average Customer Lifetime
-- Average Customer Spend
-
-### Visualizations
-
-- Customer Segments
-- Customer Value Tier
-- Revenue by Customer Segment
-- Repeat vs One-Time Customers
-- Customer Distribution by State
+### Customer Intelligence
 
 <p align="center">
-
-<img src="images/dashboard/customer_dashboard.png" width="950">
-
+<img src="images/dashboard/customer_dashboard.png" width="900">
 </p>
 
 ---
 
-# Product & Sales Dashboard
-
-Provides insights into sales trends and product performance.
-
-### KPIs
-
-- Total Products
-- Average Product Price
-- Top Revenue Category
-- Average Freight Cost
-
-### Visualizations
-
-- Product Category Revenue
-- Top Products
-- Revenue by Quarter
-- Revenue by State
-- Product Pricing Analysis
+### Product & Sales Analytics
 
 <p align="center">
-
-<img src="images/dashboard/product_dashboard.png" width="950">
-
+<img src="images/dashboard/product_dashboard.png" width="900">
 </p>
 
 ---
 
-# Seller & Operations Dashboard
-
-Monitors marketplace sellers and operational efficiency.
-
-### KPIs
-
-- Total Sellers
-- Average Delivery Time
-- Delayed Orders
-- Average Seller Rating
-
-### Visualizations
-
-- Top Sellers
-- Seller Revenue
-- Delivery Performance
-- Order Status Distribution
-- Seller Tier Analysis
+### Seller & Operations
 
 <p align="center">
-
-<img src="images/dashboard/seller_dashboard.png" width="950">
-
+<img src="images/dashboard/seller_dashboard.png" width="900">
 </p>
 
 ---
 
-# Executive Insights Dashboard
-
-Summarizes the most important findings from the project.
-
-### Business Summary
-
-- Revenue Trends
-- Customer Segments
-- Product Performance
-- Seller Rankings
-- Operational KPIs
-
-### Strategic Recommendations
-
-- Customer Retention
-- Product Optimization
-- Logistics Improvements
-- Seller Development
-- Marketing Opportunities
+### Executive Insights
 
 <p align="center">
-
-<img src="images/dashboard/executive_insights.png" width="950">
-
+<img src="images/dashboard/executive_insights.png" width="900">
 </p>
 
 ---
 
-# 📈 Key Business Insights
+# 💡 Key Business Insights
 
-The analysis identified several actionable business insights.
+### 📈 Sales
 
-### Revenue
+- Revenue is concentrated in a small number of product categories.
+- Quarter 2 generated the highest marketplace revenue.
+- Afternoon and evening recorded the highest purchasing activity.
 
-- Revenue is concentrated among a small number of high-performing product categories.
-- Revenue demonstrates seasonal trends that can support future marketing campaigns.
+### 👥 Customers
 
-### Customers
+- Most customers placed only one order.
+- Repeat customers generated significantly higher lifetime value.
+- Premium customer segments contributed disproportionately to overall revenue.
 
-- Most customers are one-time buyers.
-- Repeat customers contribute significantly higher lifetime value.
-- Premium customer segments generate disproportionate revenue.
+### 🛍️ Products
 
-### Products
+- Health & Beauty, Watches & Gifts, and Bed & Bath were among the strongest-performing categories.
+- Product revenue follows a Pareto-like distribution.
 
-- A small number of categories account for the majority of sales.
-- Higher-rated products consistently outperform lower-rated products.
+### 🏪 Sellers
 
-### Sellers
+- A relatively small group of sellers generated a significant share of marketplace revenue.
+- Seller performance varied substantially across the platform.
 
-- Seller revenue follows a Pareto-like distribution.
-- High-performing sellers significantly influence marketplace performance.
+### 🚚 Operations
 
-### Operations
+- Most orders were delivered successfully within expected timelines.
+- Longer delivery delays were associated with lower review scores.
 
-- Delivery delays negatively affect customer satisfaction.
-- Most orders are delivered within expected delivery windows.
+### 💳 Payments
 
-### Payments
-
-- Credit Card is the dominant payment method.
-- Installment payments are common among higher-value purchases.
-
----
-
-# 💡 Business Recommendations
-
-Based on the analysis, the following recommendations are proposed:
-
-### Customer Strategy
-
-- Expand loyalty and rewards programs.
-- Improve customer retention campaigns.
-- Personalize marketing using customer segments.
-
-### Product Strategy
-
-- Prioritize inventory for top-performing categories.
-- Monitor low-performing products for optimization.
-
-### Seller Strategy
-
-- Reward high-performing sellers.
-- Monitor seller delivery performance through KPIs.
-- Provide operational support for underperforming sellers.
-
-### Operations Strategy
-
-- Reduce delivery delays through logistics optimization.
-- Continuously monitor delivery KPIs.
-
-### Executive Strategy
-
-- Track business performance using Power BI dashboards.
-- Leverage Customer 360 analytics for strategic planning.
+- Credit Card was the dominant payment method.
+- Installment payments were common for higher-value purchases.
 
 ---
 
-# 🚀 Project Highlights
+# 🚀 Business Recommendations
 
-✔ End-to-End Analytics Pipeline
-
-✔ Production-Style Folder Structure
-
-✔ Customer 360 Dataset
-
-✔ Feature Engineering
-
-✔ Advanced SQL Analytics
-
-✔ Exploratory Data Analysis
-
-✔ RFM Customer Analysis
-
-✔ K-Means Customer Segmentation
-
-✔ Executive Power BI Dashboard
-
-✔ Business Intelligence Reporting
+- Increase investment in top-performing product categories.
+- Launch targeted retention campaigns for dormant customers.
+- Expand loyalty programs for repeat customers.
+- Develop exclusive benefits for premium customer segments.
+- Monitor seller delivery performance through operational KPIs.
+- Reduce delivery delays to improve customer satisfaction.
+- Use customer segmentation to personalize future marketing campaigns.
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
-Clone the repository.
+## Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/retail-consumer-intelligence-platform.git
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/retail-consumer-intelligence-business-analytics.git
 ```
 
-Move into the project.
+Navigate to the project directory.
 
 ```bash
-cd retail-consumer-intelligence-platform
+cd retail-consumer-intelligence-business-analytics
 ```
 
-Install dependencies.
+Install the required Python libraries.
 
 ```bash
 pip install -r requirements.txt
@@ -1121,17 +682,23 @@ Launch Jupyter Notebook.
 jupyter notebook
 ```
 
-Open the notebooks sequentially and execute each phase of the analytics pipeline.
+Run the notebooks in the following order:
+
+1. Data Cleaning & Validation
+2. Feature Engineering
+3. SQL Business Analysis
+4. Exploratory Data Analysis
+5. Customer Intelligence (RFM + K-Means)
 
 ---
 
-# 📌 Repository Workflow
+# 📁 Repository Workflow
 
-```
-Raw Data
+```text
+Raw Dataset
       │
       ▼
-Cleaning
+Data Cleaning
       │
       ▼
 Feature Engineering
@@ -1140,13 +707,13 @@ Feature Engineering
 SQL Analytics
       │
       ▼
-EDA
+Exploratory Data Analysis
       │
       ▼
 Customer Segmentation
       │
       ▼
-Power BI
+Power BI Dashboard
       │
       ▼
 Business Insights
@@ -1154,19 +721,34 @@ Business Insights
 
 ---
 
-# 📖 Key Learnings
+# 📈 Project Outcomes
 
-This project demonstrates practical experience in:
+This project demonstrates an end-to-end analytics workflow commonly used by Data Analysts and Business Intelligence professionals.
 
-- Data Cleaning & Validation
-- Feature Engineering
-- SQL Analytics
-- Customer 360 Design
-- Exploratory Data Analysis
-- Customer Segmentation
-- Business Storytelling
-- Power BI Dashboard Development
-- End-to-End Analytics Workflow
+### Skills Demonstrated
+
+- ✅ Data Cleaning & Validation
+- ✅ Feature Engineering
+- ✅ SQL Business Analysis
+- ✅ Exploratory Data Analysis
+- ✅ Customer 360 Analytics
+- ✅ RFM Analysis
+- ✅ Customer Segmentation using K-Means
+- ✅ Power BI Dashboard Development
+- ✅ Business Storytelling
+- ✅ Executive Reporting
+
+---
+
+# 🎯 Future Improvements
+
+Potential enhancements for future versions include:
+
+- Interactive dashboard deployment using Power BI Service
+- Automated ETL pipeline using Python
+- Cloud data warehouse integration
+- Real-time business monitoring
+- Advanced customer lifetime value modeling
 
 ---
 
@@ -1178,24 +760,38 @@ This project demonstrates practical experience in:
 
 ### Connect with Me
 
-- 💼 LinkedIn: *(Add your LinkedIn profile)*
-- 💻 GitHub: *(Add your GitHub profile)*
-- 📧 Email: *(Add your email address)*
+<p align="left">
+
+<a href="YOUR_LINKEDIN_URL">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+</a>
+
+<a href="mailto:YOUR_EMAIL@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+</a>
+
+</p>
 
 ---
 
-# ⭐ Support
+# 📄 License
 
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+This project is licensed under the **MIT License**.
 
-It helps others discover the project and motivates future improvements.
+Feel free to use this repository for learning and educational purposes.
 
 ---
 
 <div align="center">
 
-### ⭐ If you enjoyed this project, don't forget to star the repository! ⭐
+## ⭐ If you found this project helpful, please consider giving it a Star!
 
-**Built with Python, SQL & Power BI**
+### Thanks for visiting the project! 🚀
+
+Made with ❤️ using **Python, SQL & Power BI**
 
 </div>
