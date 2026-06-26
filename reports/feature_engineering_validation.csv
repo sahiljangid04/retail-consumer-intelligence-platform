@@ -1,0 +1,7 @@
+Dataset,Rows,Columns,Duplicate Rows,Missing Values
+Order Features,99441,21,0,13964
+Sales Master,113425,46,0,35836
+Customer 360,96096,15,0,718
+Customer Features,96096,24,0,718
+Product Features,32951,17,0,2610
+Seller Features,3095,13,0,130
