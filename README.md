@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛍️ Retail Consumer Intelligence & Business Analytics Platform
+#  Retail Consumer Intelligence & Business Analytics Platform
 
 ### End-to-End Retail Analytics using Python • SQL • Power BI
 
@@ -25,7 +25,7 @@ Transforming raw marketplace data into actionable business insights through **Py
 
 # ⚡ 3-Minute Summary
 
-### 📌 What is this?
+###  What is this?
 
 A complete **Data Analytics portfolio project** that simulates how a Business Intelligence team analyzes an e-commerce marketplace.
 
@@ -33,19 +33,19 @@ Instead of focusing only on dashboards, the project follows a complete analytics
 
 ---
 
-## 🚀 What was built?
+##  What was built?
 
-- 🧹 Data Cleaning & Validation
-- ⚙️ Feature Engineering
-- 🗄️ Advanced SQL Business Analysis
-- 📈 Exploratory Data Analysis
-- 👥 Customer 360 Dataset
-- 🧠 Customer Segmentation (RFM + K-Means)
-- 📊 Executive Power BI Dashboard
+-  Data Cleaning & Validation
+-  Feature Engineering
+-  Advanced SQL Business Analysis
+-  Exploratory Data Analysis
+-  Customer 360 Dataset
+-  Customer Segmentation (RFM + K-Means)
+-  Executive Power BI Dashboard
 
 ---
 
-## 📊 Dataset Scale
+##  Dataset Scale
 
 | Metric         | Value |
 | -------------- | ----: |
@@ -59,13 +59,13 @@ Instead of focusing only on dashboards, the project follows a complete analytics
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 Python • SQL • Pandas • NumPy • Scikit-learn • Power BI • Matplotlib • Jupyter Notebook
 
 ---
 
-## 🎯 Business Outcome
+##  Business Outcome
 
 This project helps business stakeholders answer questions such as:
 
@@ -77,7 +77,7 @@ This project helps business stakeholders answer questions such as:
 
 ---
 
-# 📷 Dashboard Preview
+#  Dashboard Preview
 
 > Replace this image with your final dashboard collage.
 
@@ -89,7 +89,7 @@ This project helps business stakeholders answer questions such as:
 
 ---
 
-# 🔗 Quick Navigation
+#  Quick Navigation
 
 - [Project Overview](#-project-overview)
 - [Tech Stack](#️-tech-stack)
@@ -103,7 +103,7 @@ This project helps business stakeholders answer questions such as:
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Retail companies generate enormous amounts of transactional data every day, yet converting that data into meaningful business decisions remains a challenge.
 
@@ -113,7 +113,7 @@ Rather than treating Python, SQL, and Power BI as separate tools, they are integ
 
 ---
 
-# 💼 Business Objectives
+#  Business Objectives
 
 The platform was developed to answer critical business questions including:
 
@@ -126,7 +126,7 @@ The platform was developed to answer critical business questions including:
 
 ---
 
-# 🏗️ Project Architecture
+#  Project Architecture
 
 ```text
                   Raw CSV Files
@@ -153,7 +153,7 @@ The platform was developed to answer critical business questions including:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Category         | Tools                     |
 | ---------------- | ------------------------- |
@@ -167,7 +167,7 @@ The platform was developed to answer critical business questions including:
 
 ---
 
-# 🗂️ Dataset Overview
+#  Dataset Overview
 
 The project uses the **Olist Brazilian E-Commerce Public Dataset**, which contains complete marketplace transactions from purchase through delivery.
 
@@ -196,7 +196,7 @@ The project uses the **Olist Brazilian E-Commerce Public Dataset**, which contai
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 retail-consumer-intelligence-platform
@@ -215,20 +215,20 @@ retail-consumer-intelligence-platform
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
-| Module                   | Description                            |
-| ------------------------ | -------------------------------------- |
-| 🧹 Data Cleaning         | Missing values, duplicates, validation |
-| ⚙️ Feature Engineering   | Customer, Product & Seller features    |
-| 🗄️ SQL Analytics         | Sales, Customer, Product & Operations  |
-| 📈 EDA                   | 20+ visualizations                     |
-| 👥 Customer Intelligence | Customer 360 & K-Means Segmentation    |
-| 📊 Power BI              | Executive dashboards                   |
+| Module                 | Description                            |
+| ---------------------- | -------------------------------------- |
+|  Data Cleaning         | Missing values, duplicates, validation |
+|  Feature Engineering   | Customer, Product & Seller features    |
+|  SQL Analytics         | Sales, Customer, Product & Operations  |
+|  EDA                   | 20+ visualizations                     |
+|  Customer Intelligence | Customer 360 & K-Means Segmentation    |
+|  Power BI              | Executive dashboards                   |
 
 ---
 
-# 🗄️ SQL Business Analysis
+#  SQL Business Analysis
 
 Business analysis was performed using **8 modular SQL scripts** covering:
 
@@ -243,11 +243,11 @@ The implementation demonstrates joins, CTEs, window functions, ranking functions
 
 ---
 
-# 📈 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 The analysis explores customer behaviour, sales performance, logistics, product demand, payment preferences, and seller operations.
 
-## 📸 Visualization Gallery
+##  Visualization Gallery
 
 | Revenue Trends                                                       | Customer Analysis                                                           |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -263,7 +263,7 @@ The analysis explores customer behaviour, sales performance, logistics, product 
 
 ---
 
-# 👥 Customer Intelligence
+#  Customer Intelligence
 
 To better understand purchasing behaviour, a **Customer 360 dataset** was engineered and combined with **RFM Analysis** and **K-Means Clustering**.
 
@@ -271,7 +271,7 @@ This enables the business to identify customer groups with different purchasing 
 
 ---
 
-## 📊 Customer Segmentation Pipeline
+##  Customer Segmentation Pipeline
 
 ```text
 Customer 360
@@ -291,7 +291,7 @@ Business Segments
 
 ---
 
-## 📸 Segmentation Results
+##  Segmentation Results
 
 | Elbow Method                                                | PCA Cluster Visualization                                   |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
@@ -305,33 +305,33 @@ Business Segments
 
 ## Customer Segments
 
-| Segment              | Business Strategy                            |
-| -------------------- | -------------------------------------------- |
-| ⭐ Premium Customers | VIP rewards & exclusive offers               |
-| ❤️ Loyal Customers   | Loyalty & retention campaigns                |
-| 🔁 Frequent Buyers   | Cross-selling & upselling                    |
-| 🆕 New Customers     | Onboarding & first-repeat purchase campaigns |
-| 💤 Dormant Customers | Win-back promotions                          |
+| Segment            | Business Strategy                            |
+| ------------------ | -------------------------------------------- |
+|  Premium Customers | VIP rewards & exclusive offers               |
+|  Loyal Customers   | Loyalty & retention campaigns                |
+|  Frequent Buyers   | Cross-selling & upselling                    |
+|  New Customers     | Onboarding & first-repeat purchase campaigns |
+|  Dormant Customers | Win-back promotions                          |
 
 ---
 
-# 📊 Power BI Dashboard
+#  Power BI Dashboard
 
 The engineered datasets were integrated into **Power BI** to create an interactive Business Intelligence solution for business stakeholders.
 
 ### Dashboard Pages
 
-| Dashboard                | Purpose                           |
-| ------------------------ | --------------------------------- |
-| 📈 Executive Overview    | Business KPI Monitoring           |
-| 👥 Customer Intelligence | Customer behaviour & segmentation |
-| 🛍️ Product Analytics     | Product performance               |
-| 🏪 Seller & Operations   | Seller performance & logistics    |
-| 💡 Executive Insights    | Strategic recommendations         |
+| Dashboard              | Purpose                           |
+| ---------------------- | --------------------------------- |
+|  Executive Overview    | Business KPI Monitoring           |
+|  Customer Intelligence | Customer behaviour & segmentation |
+|  Product Analytics     | Product performance               |
+|  Seller & Operations   | Seller performance & logistics    |
+|  Executive Insights    | Strategic recommendations         |
 
 ---
 
-## 📸 Dashboard Gallery
+##  Dashboard Gallery
 
 > Replace the placeholders below with your final Power BI screenshots.
 
@@ -349,43 +349,43 @@ The engineered datasets were integrated into **Power BI** to create an interacti
 
 ---
 
-# 💡 Key Business Insights
+#  Key Business Insights
 
-### 📈 Sales
+###  Sales
 
 - Revenue is concentrated in a relatively small number of product categories.
 - Sales activity is strongest during afternoon and evening hours.
 - Seasonal purchasing trends can support future marketing campaigns.
 
-### 👥 Customers
+###  Customers
 
 - Most customers make only a single purchase.
 - Repeat customers generate substantially higher lifetime value.
 - Premium customers represent a small portion of the customer base but contribute significantly to revenue.
 
-### 🛍️ Products
+###  Products
 
 - A few product categories dominate marketplace revenue.
 - Better-rated products generally achieve stronger sales performance.
 
-### 🏪 Sellers
+###  Sellers
 
 - Seller performance is highly uneven.
 - A small group of sellers contributes a significant share of total revenue.
 
-### 🚚 Operations
+###  Operations
 
 - Most deliveries are completed within the estimated delivery window.
 - Longer delivery delays are associated with lower customer review scores.
 
-### 💳 Payments
+###  Payments
 
 - Credit Card is the preferred payment method.
 - Installment payments are common for higher-value purchases.
 
 ---
 
-# 🚀 Business Recommendations
+#  Business Recommendations
 
 - Increase investment in high-performing product categories.
 - Expand loyalty programs for repeat customers.
@@ -395,7 +395,7 @@ The engineered datasets were integrated into **Power BI** to create an interacti
 
 ---
 
-# ⚙️ Getting Started
+#  Getting Started
 
 Clone the repository.
 
@@ -425,17 +425,17 @@ Run the notebooks sequentially to reproduce the complete analytics workflow.
 
 ---
 
-# 📁 Explore the Repository
+#  Explore the Repository
 
-- 📓 **Notebooks:** `notebooks/`
-- 🗄️ **SQL Scripts:** `sql/`
-- 📊 **Power BI Report:** `powerbi/`
-- 📈 **Reports & Figures:** `reports/`
-- 📖 **Documentation:** `docs/`
+-  **Notebooks:** `notebooks/`
+-  **SQL Scripts:** `sql/`
+-  **Power BI Report:** `powerbi/`
+-  **Reports & Figures:** `reports/`
+-  **Documentation:** `docs/`
 
 ---
 
-# 🏆 Skills Demonstrated
+#  Skills Demonstrated
 
 - Python for Data Analytics
 - SQL Business Analysis
@@ -450,7 +450,7 @@ Run the notebooks sequentially to reproduce the complete analytics workflow.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 ## Sahil Jangid
 
